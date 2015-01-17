@@ -1,0 +1,17 @@
+﻿Build started 13/01/2015 3:32:04 PM.
+     1>Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\common\common.vcxproj" on node 3 (Build target(s)).
+     1>Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\common\common.vcxproj" (1) is building "D:\Programming\VS2013Projects\kbengine - Copy- 2\openssl\vcbuild\ssleay32\ssleay32.vcxproj" (3:3) on node 3 (GetResolvedLinkLibs target(s)).
+     3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\common\common.vcxproj" (1) is building "D:\Programming\VS2013Projects\kbengine - Copy- 2\openssl\vcbuild\libeay32\libeay32.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+     2>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     2>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     3>Done Building Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\openssl\vcbuild\ssleay32\ssleay32.vcxproj" (GetResolvedLinkLibs target(s)).
+     2>Done Building Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\openssl\vcbuild\libeay32\libeay32.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Lib:
+         common.vcxproj -> D:\Programming\VS2013Projects\kbengine - Copy- 2\\libs\Debug\common_d.lib
+     1>Done Building Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\common\common.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.23

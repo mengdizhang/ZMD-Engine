@@ -1,0 +1,27 @@
+﻿Build started 29/12/2014 4:44:01 PM.
+     1>Project "D:\Programming\VS2013Projects\kbengine - Copy\TEST_SRV\TEST_SRV.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programming\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\openssl\inc32 /I"D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Project "D:\Programming\VS2013Projects\kbengine - Copy\TEST_SRV\TEST_SRV.vcxproj" (1) is building "D:\Programming\VS2013Projects\kbengine - Copy\common\common.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+   2:3>Project "D:\Programming\VS2013Projects\kbengine - Copy\common\common.vcxproj" (2:3) is building "D:\Programming\VS2013Projects\kbengine - Copy\openssl\vcbuild\ssleay32\ssleay32.vcxproj" (4:3) on node 2 (GetResolvedLinkLibs target(s)).
+     4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+   2:3>Project "D:\Programming\VS2013Projects\kbengine - Copy\common\common.vcxproj" (2:3) is building "D:\Programming\VS2013Projects\kbengine - Copy\openssl\vcbuild\libeay32\libeay32.vcxproj" (5:3) on node 1 (GetResolvedLinkLibs target(s)).
+     5>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     5>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     4>Done Building Project "D:\Programming\VS2013Projects\kbengine - Copy\openssl\vcbuild\ssleay32\ssleay32.vcxproj" (GetResolvedLinkLibs target(s)).
+     5>Done Building Project "D:\Programming\VS2013Projects\kbengine - Copy\openssl\vcbuild\libeay32\libeay32.vcxproj" (GetResolvedLinkLibs target(s)).
+     2>Done Building Project "D:\Programming\VS2013Projects\kbengine - Copy\common\common.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Link:
+         D:\Programming\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\VS2013Projects\kbengine - Copy\Debug\TEST_SRV.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\libs /LIBPATH:..\libs\Debug ACEd.lib gtestd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Programming\VS2013Projects\kbengine - Copy\Debug\TEST_SRV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\VS2013Projects\kbengine - Copy\Debug\TEST_SRV.lib" /MACHINE:X86 Debug\Source.obj
+         "D:\Programming\VS2013Projects\kbengine - Copy\libs\Debug\libeay32_d.lib"
+         "D:\Programming\VS2013Projects\kbengine - Copy\libs\Debug\ssleay32_d.lib"
+         "D:\Programming\VS2013Projects\kbengine - Copy\libs\Debug\common_d.lib"
+         "D:\Programming\VS2013Projects\kbengine - Copy\libs\Debug\net_d.lib"
+         TEST_SRV.vcxproj -> D:\Programming\VS2013Projects\kbengine - Copy\Debug\TEST_SRV.exe
+     1>Done Building Project "D:\Programming\VS2013Projects\kbengine - Copy\TEST_SRV\TEST_SRV.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.69

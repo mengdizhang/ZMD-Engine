@@ -1,0 +1,117 @@
+﻿Build started 15/01/2015 5:25:16 PM.
+     1>Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\MyTests1\MyTests1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programming\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I..\openssl\inc32 /I"D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\gtests\test.cpp
+         test.cpp
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_string.inl(110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_string.inl(120): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\string.h(284) : see declaration of 'wcscat'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_string.inl(178): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_string.inl(188): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\string.h(294) : see declaration of 'wcscpy'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_string.inl(222): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\string.h(245) : see declaration of 'strdup'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_string.inl(262): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\string.h(186) : see declaration of 'strncat'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_string.inl(274): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\string.h(316) : see declaration of 'wcsncat'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_string.inl(315): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_string.inl(324): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\string.h(323) : see declaration of 'wcsncpy'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_string.inl(508): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\string.h(204) : see declaration of 'strtok'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_string.inl(519): warning C4996: 'wcstok': This function or variable may be unsafe. Consider using wcstok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\string.h(330) : see declaration of 'wcstok'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_stdlib.inl(178): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : see declaration of 'getenv'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_stdlib.inl(190): warning C4996: '_wgetenv': This function or variable may be unsafe. Consider using _wdupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\stdlib.h(711) : see declaration of '_wgetenv'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_stdlib.inl(201): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\stdlib.h(481) : see declaration of '_itoa'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_stdlib.inl(214): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_stdlib.inl(280): warning C4996: '_mktemp': This function or variable may be unsafe. Consider using _mktemp_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\io.h(201) : see declaration of '_mktemp'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_stdlib.inl(291): warning C4996: '_wmktemp': This function or variable may be unsafe. Consider using _wmktemp_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\wchar.h(349) : see declaration of '_wmktemp'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_stdlib.inl(340): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putenv. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\stdlib.h(941) : see declaration of 'putenv'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_unistd.inl(60): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _access. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\io.h(323) : see declaration of 'access'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_unistd.inl(131): warning C4996: 'chdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _chdir. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\direct.h(136) : see declaration of 'chdir'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_unistd.inl(158): warning C4996: 'rmdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _rmdir. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\direct.h(141) : see declaration of 'rmdir'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_unistd.inl(409): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getcwd. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\direct.h(130) : see declaration of 'getcwd'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_unistd.inl(1014): warning C4996: 'swab': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _swab. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\stdlib.h(944) : see declaration of 'swab'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_unistd.inl(1169): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _unlink. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\stdio.h(278) : see declaration of 'unlink'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_sys_stat.inl(154): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\direct.h(140) : see declaration of 'mkdir'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_stdio.inl(703): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\stdio.h(226) : see declaration of 'freopen'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_stdio.inl(887): warning C4996: 'tempnam': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _tempnam. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\stdio.h(709) : see declaration of 'tempnam'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_stdio.inl(994): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_stdio.inl(1052): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_stdio.inl(1100): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : see declaration of '_vsnwprintf'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_arpa_inet.inl(20): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_arpa_inet.inl(32): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_netdb.inl(81): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2216) : see declaration of 'gethostbyaddr'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_netdb.inl(226): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2216) : see declaration of 'gethostbyaddr'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_netdb.inl(261): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_netdb.inl(406): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_time.inl(21): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\time.h(174) : see declaration of 'asctime'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_time.inl(119): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\time.inl(86) : see declaration of 'ctime'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_time.inl(367): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\time.inl(99) : see declaration of 'gmtime'
+     1>D:\Programming\VS2013Projects\ACE-6.2.7\ACE_wrappers\ace/OS_NS_time.inl(402): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Programming\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>D:\Programming\VS2013Projects\kbengine - Copy- 2\common/deadline.hpp(27): warning C4244: '=' : conversion from 'time_t' to 'long', possible loss of data
+     1>D:\Programming\VS2013Projects\kbengine - Copy- 2\net\Nub.h(54): warning C4244: 'initializing' : conversion from 'ACE_UINT64' to 'double', possible loss of data
+     1>D:\Programming\VS2013Projects\kbengine - Copy- 2\net\Bundle.h(66): warning C4099: 'KBE_0_0_1::NETWORK::MessageHandler' : type name first seen using 'class' now seen using 'struct'
+                 D:\Programming\VS2013Projects\kbengine - Copy- 2\net\Bundle.h(15) : see declaration of 'KBE_0_0_1::NETWORK::MessageHandler'
+     1>D:\Programming\VS2013Projects\kbengine - Copy- 2\net\Bundle.h(72): warning C4099: 'KBE_0_0_1::NETWORK::Bundle' : type name first seen using 'class' now seen using 'struct'
+                 D:\Programming\VS2013Projects\kbengine - Copy- 2\net\Packet.h(11) : see declaration of 'KBE_0_0_1::NETWORK::Bundle'
+     1>Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\MyTests1\MyTests1.vcxproj" (1) is building "D:\Programming\VS2013Projects\kbengine - Copy- 2\common\common.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+   2:3>Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\common\common.vcxproj" (2:3) is building "D:\Programming\VS2013Projects\kbengine - Copy- 2\openssl\vcbuild\ssleay32\ssleay32.vcxproj" (5:3) on node 1 (GetResolvedLinkLibs target(s)).
+     5>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     5>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+   2:3>Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\common\common.vcxproj" (2:3) is building "D:\Programming\VS2013Projects\kbengine - Copy- 2\openssl\vcbuild\libeay32\libeay32.vcxproj" (4:3) on node 2 (GetResolvedLinkLibs target(s)).
+     4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     5>Done Building Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\openssl\vcbuild\ssleay32\ssleay32.vcxproj" (GetResolvedLinkLibs target(s)).
+     4>Done Building Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\openssl\vcbuild\libeay32\libeay32.vcxproj" (GetResolvedLinkLibs target(s)).
+     2>Done Building Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\common\common.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Link:
+         D:\Programming\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\VS2013Projects\kbengine - Copy- 2\Release\MyTests1.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\libs /LIBPATH:..\libs\Release ACE.lib gtest.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Programming\VS2013Projects\kbengine - Copy- 2\Release\MyTests1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\VS2013Projects\kbengine - Copy- 2\Release\MyTests1.lib" /MACHINE:X86 /SAFESEH Release\test.obj
+         "D:\Programming\VS2013Projects\kbengine - Copy- 2\libs\Release\libeay32_r.lib"
+         "D:\Programming\VS2013Projects\kbengine - Copy- 2\libs\Release\ssleay32_r.lib"
+         "D:\Programming\VS2013Projects\kbengine - Copy- 2\libs\Release\common_r.lib"
+         "D:\Programming\VS2013Projects\kbengine - Copy- 2\libs\Release\net_r.lib"
+         Generating code
+     1>d:\programming\vs2013projects\kbengine - copy- 2\common\timestamp.cpp(190): warning C4700: uninitialized local variable 'rate' used
+     1>d:\programming\vs2013projects\kbengine - copy- 2\common\timestamp.cpp(205): warning C4700: uninitialized local variable 'rate' used
+         Finished generating code
+         MyTests1.vcxproj -> D:\Programming\VS2013Projects\kbengine - Copy- 2\Release\MyTests1.exe
+     1>Done Building Project "D:\Programming\VS2013Projects\kbengine - Copy- 2\MyTests1\MyTests1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.33
